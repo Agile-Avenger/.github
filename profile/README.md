@@ -92,7 +92,7 @@ This application is designed to assist healthcare providers in underdeveloped ar
      flutter run
      ```
 
-6. **MLOps Pipeline** (optional):
+6. **MLOps Pipeline** :
    - For Docker and MLOps setup, refer to the **MLOps Pipeline** section below.
 
 ---
@@ -214,7 +214,7 @@ This setup allows your application to authenticate users via Firebase using eith
   - **Authentication**: Manages user sessions and permissions securely.
   - **Model Prediction API**: Receives images, processes them, and returns predictions in a structured format.
   - **Database**: MongoDB for storing user data, predictions, and feedback.
-  - **Report Generation**: Generates downloadable PDF reports using libraries like `reportlab` or `fpdf`.
+  - **Report Generation API**: Generates downloadable PDF reports using libraries like `reportlab` or `fpdf`.
 
 ---
 
@@ -257,7 +257,7 @@ This setup allows your application to authenticate users via Firebase using eith
 ## Model Training
 
 ### Tools
-- **TensorFlow / PyTorch**: Frameworks for model training, depending on the architecture chosen.
+- **TensorFlow : Frameworks for model training, depending on the architecture chosen.
 - **Medical Datasets**: Utilizes publicly available and medically validated datasets (e.g., NIH Chest X-ray dataset) for training and evaluation.
 
 ### Steps
@@ -272,7 +272,7 @@ This setup allows your application to authenticate users via Firebase using eith
    - Conduct accuracy checks and validation on unseen data to ensure generalization.
    - Use metrics like precision, recall, and F1-score for comprehensive performance evaluation.
 4. **Model Deployment**:
-   - Deploy the model to Google Cloud, AWS, or a containerized Docker environment for scalability.
+   - Deploying the model to Google Cloud using a containerized Docker environment for scalability.
 
 ---
 
@@ -298,7 +298,7 @@ This setup allows your application to authenticate users via Firebase using eith
    ```
 
 3. **Deploy to Cloud**:
-   - Utilize Kubernetes or Google Cloud Run to deploy and manage instances, enabling auto-scaling based on demand.
+   - Utilize Google Cloud Run to deploy and manage instances, enabling auto-scaling based on demand.
 
 4. **Monitor and Scale**:
    - Use Google Cloud Monitoring or Prometheus to observe model performance and scale resources as needed for optimal operation.
